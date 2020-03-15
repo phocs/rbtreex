@@ -64,6 +64,22 @@ void replace(mydata_t *victim, mydata_t *new_, struct rb_root *root) {
 }
 ```
 
+Install:
+---------------------------------------------------------
+```
+mkdir build
+cd build
+cmake ..
+make
+make install
+```
+
+Uninstall:
+---------------------------------------------------------
+```
+make uninstall
+```
+
 References:
 ---------------
 Linux [Source](https://github.com/torvalds/linux)
